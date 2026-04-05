@@ -1,0 +1,37 @@
+# ----------------------------------------------------------------------
+# Node / Frontend (Next.js)
+# ----------------------------------------------------------------------
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.pnpm-debug.log*
+
+# ----------------------------------------------------------------------
+# Python / Backend (Flask)
+# ----------------------------------------------------------------------
+backend/__pycache__/
+backend/*.py[cod]
+backend/*$py.class
+backend/venv/
+backend/.env
+backend/.flaskenv
+backend/instance/
+backend/.pytest_cache/
+backend/dump_data.py
+backend/data_dump_utf8.md
+backend/data_dump.md
+
+# ----------------------------------------------------------------------
+# OS / Env generated files
+# ----------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
